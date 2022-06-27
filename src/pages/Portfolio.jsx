@@ -1,29 +1,32 @@
-import React, { useState, useEffect } from 'react'
 import Hero from './../components/Hero'
-
-const REPOS = 'https://api.github.com/users/cdguedez/repos'
+import { projects } from './../utils/portfolio'
 
 const Portfolio = () => {
-  const [repoList, setRepoList] = useState([])
-
-  useEffect(() => {
-    const getRepo = async () => {
-      const res = await fetch(REPOS)
-      const result = await res.json()
-      setRepoList(result)
-    }
-    getRepo()
-  }, [])
-
-  console.log(repoList)
-
+  console.log(projects)
   return (
-    <div>
+    <>
       <Hero
         title='My portfolio'
         subTitle='my projects make by frontend web'
       />
-    </div>
+      <hr className='bg-lime-400' />
+      <section>
+        {
+          projects.map(project => {
+            return (
+              <article
+                key={project.id}
+                className='bg-slate-600 p-4 my-1 rounded-tl-lg rounded-br-lg rounded-bl-lg shadow-sm shadow-lime-400'
+              >
+                <h2 className='uppercase'>{project.name}</h2>
+                <span className={`lowercase ${project.isFinish ? 'text-[#00D26A]' : 'text-red-500'}`}>{project.isFinish ? 'finish 🟢' : 'in progress ⛔'}</span>
+                <p>{project.description}</p>
+              </article>
+            )
+          })
+        }
+      </section>
+    </>
   )
 }
 

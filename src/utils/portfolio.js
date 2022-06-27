@@ -4,7 +4,7 @@ export const projects = [
     name: 'Efiempresa LLC',
     url: 'https://efiempresa.com/',
     description: 'Web de Efiempresa realizada con wordpress para mi empleador.',
-    status: 'finish',
+    isFinish: true,
     skills: ['wordpress', 'elementor', 'CSS']
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     name: 'Dra Angela Chamorro',
     url: 'https://www.drangelachamorro.com/',
     description: 'Web de Efiempresa realizada con wordpress, con mi anterior empleador Efiempresa LLC.',
-    status: 'finish',
+    isFinish: true,
     skills: ['wordpress', 'Avada Theme', 'gutenberg page builder', 'CSS', 'JS vanila']
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     name: 'Portal de empleos Efiempleo',
     url: 'https://efiempleo.com/',
     description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
-    status: 'finish',
+    isFinish: true,
     skills: ['wordpress', 'woocomerce', 'gutenberg page builder', 'CSS']
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     name: 'Credivehiculos',
     url: 'https://credivehiculos.com/',
     description: 'Web realizada en wordpress.',
-    status: 'finish',
+    isFinish: true,
     skills: ['wordpress', 'elementor', 'CSS']
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     name: 'SPA Efitratos',
     url: 'https://app.efitratos.com/',
     description: 'Sistema de gestion de propuestas realizado con el STACK MySQL ExpressVuejs Nodejs',
-    status: 'finish',
+    isFinish: true,
     skills: ['Nodejs', 'Vuejs', 'expressjs', 'MySql', 'middlewares', '@hapi/boom', 'Sequelize', 'ORM', 'Joi', 'vue bootstrap']
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     name: 'Backoffice de contratos',
     url: '#',
     description: 'Sistema de contratos realizado con PHP, bootstrapp, javascrip vanila',
-    status: 'finish',
+    isFinish: true,
     skills: ['CSS', 'JS vanila', 'PHP 7', 'HTML5', 'bootstrap', 'MySql']
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     name: 'Pagina de recambios kawasaki',
     url: 'http://recambioskawasakimoto.com/',
     description: 'web de recambios realizada en wordpress',
-    status: 'progress',
+    isFinish: false,
     skills: ['wordpress', 'CSS', 'woocomerce']
   }
 ]
