@@ -11,7 +11,7 @@ export const defaultRoute = '/home'
 export const Routes = [
   {
     title: 'home',
-    path: '/',
+    path: '/home',
     element: <Home />
   },
   {
