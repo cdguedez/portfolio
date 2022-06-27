@@ -10,17 +10,17 @@ export const defaultRoute = '/home'
 
 export const Routes = [
   {
-    title: 'home',
+    title: 'Home',
     path: '/',
     element: <Home />
   },
   {
-    title: 'portfolio',
+    title: 'Portfolio',
     path: '/projects',
     element: <Portfolio />
   },
   {
-    title: 'contact',
+    title: 'Contact',
     path: '/contact',
     element: <Contact />
   }
