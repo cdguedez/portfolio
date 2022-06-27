@@ -1,5 +1,6 @@
+import Skills from './../components/Skills'
+
 const CardProject = ({ project }) => {
-  console.log(project)
   return (
     <article
       key={project.id}
@@ -18,6 +19,7 @@ const CardProject = ({ project }) => {
 
       }
       <div className='p-4 text-slate-300'>
+        <Skills skills={project.skills} />
         <h2 className='uppercase'><a target='_blank' href={project.url} rel='noreferrer'>{project.name}</a></h2>
         <span className='lowercase'>{project.isFinish ? '✅' : '🧑‍💻'}</span>
         <p>{project.description}</p>
