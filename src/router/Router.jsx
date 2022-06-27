@@ -12,7 +12,13 @@ const Router = () => {
       <PagesLayout>
         <Switch>
           {
-            Routes.map(r => <Route key={r.path} path={r.path} element={<Suspense fallback={<Loading />}>{r.element}</Suspense>} />)
+            Routes.map(r => (
+              <Route
+                key={r.path}
+                path={r.path}
+                element={<Suspense fallback={<Loading />}>{r.element}</Suspense>}
+              />
+            ))
           }
         </Switch>
       </PagesLayout>
