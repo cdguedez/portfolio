@@ -5,6 +5,7 @@ const Hero = ({ title, subTitle, country }) => {
     <>
       <h1 className='font-bold text-md mb-4 uppercase -ml-2 text-left'>
         {title}
+        <hr className='w-24' />
       </h1>
       <h2 className='font-semibold text-lg mb-2'>
         {subTitle} {' '}

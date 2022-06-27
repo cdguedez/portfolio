@@ -11,7 +11,7 @@ const Header = ({ items }) => {
             items.map(({ path, title }) => (
               <Link
                 key={path}
-                className='text-slate-300 font-semibold hover:text-lime-400 px-1'
+                className='text-slate-300 font-semibold hover:text-lime-400 px-1 transition-all'
                 to={path}
               >
                 {title}
