@@ -1,5 +1,3 @@
-import React from 'react'
-
 const CardProject = ({ project }) => {
   return (
     <article
@@ -7,7 +5,7 @@ const CardProject = ({ project }) => {
       className='bg-slate-600 pb-4 my-2 rounded-tl-lg rounded-br-lg rounded-bl-lg shadow-sm shadow-lime-400'
     >
       {
-        project.images.length > 0 && (
+        project.images?.length > 0 && (
           <figure>
             <img
               className='rounded-tl-lg'
