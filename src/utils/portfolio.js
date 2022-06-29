@@ -18,6 +18,8 @@ import cVehiMobile from '/src/assets/images/credivehiculos-mobile.jpg'
 import efitratosDesktop from '/src/assets/images/app-efitratos-desktop.jpg'
 // eslint-disable-next-line import/no-absolute-path
 import efitratosMobile from '/src/assets/images/app-efitratos-mobile.jpg'
+// eslint-disable-next-line import/no-absolute-path
+import contratosDesktop from '/src/assets/images/contratos-desktop.jpg'
 
 export const projects = [
   {
@@ -42,7 +44,7 @@ export const projects = [
     ],
     description: 'Web de Efiempresa realizada con wordpress, con mi anterior empleador Efiempresa LLC.',
     isFinish: true,
-    skills: ['wordpress', 'Avada Theme', 'gutenberg page builder', 'CSS', 'JS vanila']
+    skills: ['wordpress', 'Avada Theme', 'page builder', 'CSS', 'JS vanila']
   },
   {
     id: 'CG03',
@@ -54,7 +56,7 @@ export const projects = [
     ],
     description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
     isFinish: true,
-    skills: ['wordpress', 'woocomerce', 'gutenberg page builder', 'CSS']
+    skills: ['wordpress', 'woocomerce', 'Page builder', 'CSS']
   },
   {
     id: 'CG04',
@@ -84,7 +86,7 @@ export const projects = [
     id: 'CG06',
     name: 'Backoffice de contratos',
     url: '#',
-    images: [],
+    images: [contratosDesktop],
     description: 'Sistema de contratos realizado con PHP, bootstrapp, javascrip vanila',
     isFinish: true,
     skills: ['CSS', 'JS vanila', 'PHP 7', 'HTML5', 'bootstrap', 'MySql']
@@ -102,6 +104,7 @@ export const projects = [
 
 export const me = {
   name: 'Carlos Guedez',
+  jobTitle: 'Web Developer',
   country: 'VENEZUELA',
   language: [
     { id: 'l1', name: 'spanish', level: 'nativo' },
@@ -121,7 +124,8 @@ export const me = {
   ],
   socialLinks: [
     { name: 'twitter', url: 'https://twitter.com/cdguedez' },
-    { name: 'linkedin', url: 'https://linkedin.com/in/cdguedez' }
+    { name: 'linkedin', url: 'https://linkedin.com/in/cdguedez' },
+    { name: 'github', url: 'https://github.com/cdguedez' }
   ],
   hobbies: ['leer', 'series', 'cine', 'montana'],
   age: 29
