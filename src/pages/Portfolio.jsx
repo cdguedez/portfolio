@@ -3,7 +3,7 @@ import Projects from './../components/Projects'
 
 const Portfolio = () => {
   return (
-    <section>
+    <section className='px-2'>
       <Hero
         title='My portfolio'
       />

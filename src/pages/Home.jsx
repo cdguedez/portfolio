@@ -3,9 +3,8 @@ import HeroHome from './../components/HeroHome'
 import { me } from './../utils/portfolio'
 
 const Home = () => {
-  console.log(me.socialLinks)
   return (
-    <section className='w-1/2'>
+    <section>
       <HeroHome
         name={me.name}
         jobTitle={me.jobTitle}

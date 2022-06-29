@@ -1,26 +1,26 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BurgerIcon from './../assets/icons/BurgerIcon'
+import CloseIcon from '../assets/icons/CloseIcon'
 import Button from './Button'
 
-const Header = ({ items, color }) => {
-  console.log(color)
+const Header = ({ items }) => {
   const [isVisible, setIsVisible] = useState(false)
   return (
-    <header className=' bg-white p-4 h-auto fixed w-screen z-10'>
+    <header className='bg-white p-4 h-auto fixed w-screen z-10 shadow-md'>
       <nav className='flex justify-between items-center bg-inherit'>
         <div className='sm:hidden bg-inherit'>
           <Button
             onClick={() => setIsVisible(!isVisible)}
           >
-            <BurgerIcon />
+            {isVisible ? <CloseIcon /> : <BurgerIcon />}
           </Button>
-          <div className={`flex flex-col fixed mt-4 rounded-[0_4px_4px_4px] bg-inherit ${!isVisible ? 'hidden' : ''}`}>
+          <div className={`flex flex-col fixed mt-3 rounded-[0_4px_4px_4px] bg-inherit shadow-md ${!isVisible ? 'hidden' : ''}`}>
             {
             items.map(({ path, title }) => (
               <Link
                 key={path}
-                className='font-semibold px-4 py-2 transition-all'
+                className='font-semibold px-6 py-2  transition-all'
                 to={path}
               >
                 {title}
@@ -35,7 +35,7 @@ const Header = ({ items, color }) => {
             items.map(({ path, title }) => (
               <Link
                 key={path}
-                className='font-semibold px-1 transition-all'
+                className='font-semibold px-1  transition-all'
                 to={path}
               >
                 {title}

@@ -13,7 +13,7 @@ const HeroHome = ({ name, jobTitle, networks }) => {
   return (
     <article>
       <h1 className='font-bold text-3xl text-left'>Hi, 👋🏻 I'm {name}</h1>
-      <hr className='bg-blue-300 mt-2 h-1 w-1/4' />
+      <hr className='bg-blue-300 my-4 h-1 w-1/3' />
       <h2 className='font-semibold text-xl text-left'>{jobTitle}</h2>
       <div className='flex'>
         {

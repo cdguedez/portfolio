@@ -4,7 +4,7 @@ const Button = ({ children, ...props }) => {
   return (
     <button
       {...props}
-      className='bg-inherit px-4 py-2 rounded-md text-sm'
+      className='bg-inherit py-2 rounded-md text-sm'
     >
       {children}
     </button>
