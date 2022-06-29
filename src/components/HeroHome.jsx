@@ -13,12 +13,12 @@ const HeroHome = ({ name, jobTitle, networks }) => {
   return (
     <article>
       <h1 className='font-bold text-3xl text-left'>Hi, 👋🏻 I'm {name}</h1>
-      <hr className='bg-blue-300 my-4 h-1 w-1/3' />
-      <h2 className='font-semibold text-xl text-left'>{jobTitle}</h2>
+      <hr className='bg-blue-400 my-4 h-1 w-1/3' />
+      <h2 className='font-semibold text-xl text-left text-blue-400'>{jobTitle}</h2>
       <div className='flex'>
         {
           networks.map(({ name, url }) => {
-            return <a href={url} key={name}>{socialIcons[name]}</a>
+            return <a href={url} target='_blank' key={name} rel='noreferrer'>{socialIcons[name]}</a>
           })
         }
       </div>
