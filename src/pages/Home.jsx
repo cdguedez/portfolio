@@ -23,12 +23,6 @@ const Home = () => {
         <About className='text-justify' />
       </section>
     </>
-    // <section className='max-w-6xl'>
-    //   <article className='bg-blue-800 bg-opacity-20 p-8 rounded-lg'>
-    //     <Skills skills={me.skills} />
-    //     <Button onClick={handleClick}>Download CV</Button>
-    //   </article>
-    // </section>
   )
 }
 
