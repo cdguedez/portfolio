@@ -1,0 +1,1 @@
+import{j as s,a as r,b as e}from"./index.6a782ded.js";const n=()=>s("section",{children:[r("h1",{className:"",children:"ERROR 404 | PAGE NOT FOUND"}),r(e,{to:"/",children:"Return Home"})]});export{n as default};
