@@ -3,7 +3,6 @@ import Projects from './../components/Projects'
 import { projects } from './../utils/portfolio'
 
 const Portfolio = () => {
-  console.log(projects)
   return (
     <>
       <article className='px-4 py-10'>

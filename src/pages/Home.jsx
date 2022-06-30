@@ -20,7 +20,7 @@ const Home = () => {
           <Button border onClick={() => window.open(linkLinkedin, '_blank')}>Contactame</Button>
         </div>
       </article>
-      <article className='bg-slate-300 p-4'>
+      <article className='bg-slate-200 bg-opacity-50 p-4'>
         <About className='text-left text-lg pt-4' />
       </article>
     </>

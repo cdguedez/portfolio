@@ -3,7 +3,7 @@ const Skills = ({ skills }) => {
     <div className='my-2 text-left flex flex-wrap justify-center'>
       {skills.map(skill => (
         <span
-          className='px-2 border-[1px] border-blue-400 rounded-md m-1'
+          className='px-2 border-blue-400 border-2 rounded-xl m-1 text-[12px] uppercase'
           key={skill}
         >
           {skill}

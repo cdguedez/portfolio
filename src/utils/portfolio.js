@@ -24,54 +24,26 @@ import contratosDesktop from '/src/assets/images/contratos-desktop.jpg'
 export const projects = [
   {
     id: 'CG01',
-    name: 'Efiempresa LLC',
-    url: 'https://efiempresa.com/',
-    images: [
-      efiempresaDesktop,
-      efiempresaMobile
-    ],
-    description: 'Web de Efiempresa realizada con wordpress para mi empleador.',
+    name: 'API REST para tienda virtual',
+    url: 'https://api-store-cdguedez.herokuapp.com/api/v1/users',
+    repo: 'https://github.com/cdguedez/api-store-cguedez',
+    images: [],
+    description: 'API REST creada para un curso de platzi',
     isFinish: true,
-    skills: ['wordpress', 'elementor', 'CSS']
+    skills: ['Nodejs', 'express', 'passportjs', 'sequelize', 'MySql', 'cors', 'bcrypt', 'nodemailer', 'jwt']
   },
   {
     id: 'CG02',
-    name: 'Dra Angela Chamorro',
-    url: 'https://www.drangelachamorro.com/',
-    images: [
-      draDesktop,
-      draMobile
-    ],
-    description: 'Web de Efiempresa realizada con wordpress, con mi anterior empleador Efiempresa LLC.',
+    name: 'Frontend para tienda Virtual',
+    url: 'https://cdguedez.github.io/react-shop/',
+    repo: 'https://github.com/cdguedez/react-shop',
+    images: [],
+    description: 'Frontend de tienda virtual creada en un curso de react',
     isFinish: true,
-    skills: ['wordpress', 'Avada Theme', 'page builder', 'CSS', 'JS vanila']
+    skills: ['Reactjs', 'hooks', 'webpack', 'sass', 'styled-components', 'formik', 'react-router-dom']
   },
   {
     id: 'CG03',
-    name: 'Portal de empleos Efiempleo',
-    url: 'https://efiempleo.com/',
-    images: [
-      efiempleoDesktop,
-      efiempleoMobile
-    ],
-    description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
-    isFinish: true,
-    skills: ['wordpress', 'woocomerce', 'Page builder', 'CSS']
-  },
-  {
-    id: 'CG04',
-    name: 'Credivehiculos',
-    url: 'https://credivehiculos.com/',
-    images: [
-      cVehiDesktop,
-      cVehiMobile
-    ],
-    description: 'Web realizada en wordpress.',
-    isFinish: true,
-    skills: ['wordpress', 'elementor', 'CSS']
-  },
-  {
-    id: 'CG05',
     name: 'SPA Efitratos',
     url: 'https://app.efitratos.com/',
     images: [
@@ -80,25 +52,73 @@ export const projects = [
     ],
     description: 'Sistema de gestion de propuestas realizado con el STACK MySQL ExpressVuejs Nodejs',
     isFinish: true,
-    skills: ['Nodejs', 'Vuejs', 'expressjs', 'MySql', 'middlewares', '@hapi/boom', 'Sequelize', 'ORM', 'Joi', 'vue bootstrap']
+    skills: ['Nodejs', 'Vuejs', 'express', 'MySql', 'Sequelize', 'vue-bootstrap']
   },
   {
-    id: 'CG06',
+    id: 'CG04',
     name: 'Backoffice de contratos',
-    url: '#',
+    url: 'https://contratos.efiempresa.com/',
     images: [contratosDesktop],
     description: 'Sistema de contratos realizado con PHP, bootstrapp, javascrip vanila',
     isFinish: true,
-    skills: ['CSS', 'JS vanila', 'PHP 7', 'HTML5', 'bootstrap', 'MySql']
+    skills: ['css3', 'JS vanila', 'PHP 7', 'html5', 'bootstrap', 'MySql']
+  },
+  {
+    id: 'CG05',
+    name: 'Portal de empleos Efiempleo',
+    url: 'https://efiempleo.com/',
+    images: [
+      efiempleoDesktop,
+      efiempleoMobile
+    ],
+    description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
+    isFinish: true,
+    skills: ['wordpress', 'woocomerce', 'css3']
+  },
+  {
+    id: 'CG06',
+    name: 'Efiempresa LLC',
+    url: 'https://efiempresa.com/',
+    images: [
+      efiempresaDesktop,
+      efiempresaMobile
+    ],
+    description: 'Web de Efiempresa realizada con wordpress para mi empleador.',
+    isFinish: true,
+    skills: ['wordpress', 'elementor', 'css3']
   },
   {
     id: 'CG07',
+    name: 'Dra Angela Chamorro',
+    url: 'https://www.drangelachamorro.com/',
+    images: [
+      draDesktop,
+      draMobile
+    ],
+    description: 'Web de Efiempresa realizada con wordpress, con mi anterior empleador Efiempresa LLC.',
+    isFinish: true,
+    skills: ['wordpress', 'css3', 'JS vanila']
+  },
+  {
+    id: 'CG08',
+    name: 'Credivehiculos',
+    url: 'https://credivehiculos.com/',
+    images: [
+      cVehiDesktop,
+      cVehiMobile
+    ],
+    description: 'Web realizada en wordpress.',
+    isFinish: true,
+    skills: ['wordpress', 'elementor', 'css3']
+  },
+  {
+    id: 'CG09',
     name: 'Recambios kawasaki',
     url: 'http://recambioskawasakimoto.com/',
     images: [],
     description: 'web de recambios realizada en wordpress',
     isFinish: false,
-    skills: ['wordpress', 'CSS', 'woocomerce']
+    skills: ['wordpress', 'css3', 'woocomerce']
   }
 ]
 
@@ -112,8 +132,8 @@ export const me = {
   ],
   skills: [
     'Linux',
-    'HTML5',
-    'CSS3',
+    'html5',
+    'css33',
     'MySql',
     'wordpress',
     'javaScript',
