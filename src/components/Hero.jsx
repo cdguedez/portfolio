@@ -1,17 +1,12 @@
-import React from 'react'
-
-const Hero = ({ title, subTitle, country }) => {
+const Hero = ({ title, subTitle }) => {
   return (
     <article>
-      <h1 className='font-bold text-md mb-4 uppercase -ml-2 text-left'>
+      <h1 className='font-bold text-3xl mb-4 uppercase -ml-2 text-left'>
         {title}
-        <hr className='w-24' />
+        <hr className='bg-blue-400 my-4 h-1 w-1/3' />
       </h1>
-      <h2 className='font-semibold text-lg mb-2'>
-        {subTitle} {' '}
-        <span className='font-bold text-lime-500 uppercase'>
-          {country}
-        </span>
+      <h2 className='font-semibold text-xl mb-2'>
+        {subTitle}
       </h2>
     </article>
   )

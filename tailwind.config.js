@@ -6,8 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        home: "url('/src/assets/images/bg-home.jpg')"
+      gridTemplateColumns: {
+        fill: 'repeat(auto-fill, 360px)'
       }
     }
   },

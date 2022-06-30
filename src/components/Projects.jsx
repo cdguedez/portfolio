@@ -1,14 +1,13 @@
-import React from 'react'
-import { projects } from './../utils/portfolio'
-import CardProject from './../components/CardProject'
-
-const Projects = () => {
+import CardProject from './CardProject'
+const Projects = ({ projects }) => {
   return (
-    <section className='grid md:grid-cols-2 gap-x-4'>
+    <div className='grid grid-cols-fill justify-center gap-2'>
       {
-        projects.map(project => <CardProject key={project.id} project={project} />)
+        projects.map(project => (
+          <CardProject key={project.id} project={project} />
+        ))
       }
-    </section>
+    </div>
   )
 }
 

@@ -1,7 +1,4 @@
-import React from 'react'
-
 const Button = ({ children, border, ...props }) => {
-  console.log(border)
   return (
     <button
       {...props}

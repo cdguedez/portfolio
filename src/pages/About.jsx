@@ -1,13 +1,12 @@
-import React from 'react'
-
-const About = ({ ...props }) => {
+const About = ({ className }) => {
   return (
-    <div {...props}>
+    <div className={className}>
+      <h1 className='font-bold uppercase text-3xl'>Sobre Mi</h1>
       <p className='my-2'>
-        I'm a Web developer with more than 3 years of experience. I especialize in Backend development with Node.js.
+        Soy desarrollador web con mas de 3 años de experiencia y me especializo en backend con Nodejs
       </p>
       <p className='my-2'>
-        I'm studing Reactjs and Python in Platzi, I'm passionate about technology, continuous learning.
+        Actualmente estudio Python y Reactjs en platzi, me gusta crear productos tecnologicos y el aprendizaje continuo, he trabajado mayor mente con wordpress y PHP creando blog y paginas a algunos clientes, actualmente estoy cambiando mi stack.
       </p>
     </div>
   )

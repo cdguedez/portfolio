@@ -1,16 +1,21 @@
 import Hero from './../components/Hero'
+import Projects from './../components/Projects'
+import { projects } from './../utils/portfolio'
 
 const Portfolio = () => {
+  console.log(projects)
   return (
-    <section className='w-full px-4'>
-      <Hero
-        title='My Portflio'
-        subTitle='This portfolio contain my projects personals and projects professionals'
-      />
-      <article>
-        list portfolio
+    <>
+      <article className='px-4 py-10'>
+        <Hero
+          title='Mi Portafolio'
+          subTitle='Aqui encontraras Proyectos personales y profesionales'
+        />
       </article>
-    </section>
+      <article className='p-4'>
+        <Projects projects={projects} />
+      </article>
+    </>
   )
 }
 

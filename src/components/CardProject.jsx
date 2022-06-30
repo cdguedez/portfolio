@@ -1,30 +1,23 @@
-import Skills from './../components/Skills'
+import Skills from './Skills'
+import Github from './../assets/icons/Github'
 
 const CardProject = ({ project }) => {
   return (
-    <article
-      key={project.id}
-      className='bg-blue-400 my-2 rounded-lg text-black shadow-xl hover:shadow-2xl transition-all'
+    <div
+      className='h-auto w-full border-blue-400 border-2 rounded-lg p-4 text-center hover:shadow-xl hover:translate-x-1 transition-all'
     >
-      {
-        project.images?.length > 0 && (
-          <figure>
-            <img
-              className='rounded-tl-lg rounded-tr-lg w-full max-h-[230px]'
-              src={project.images[0]}
-              alt={project.name}
-            />
-          </figure>
-        )
-
-      }
-      <div className='text-white p-4'>
-        <Skills skills={project.skills} />
-        <h2><a target='_blank' href={project.url} rel='noreferrer'>{project.name}</a></h2>
-        <span className='lowercase'>{project.isFinish ? '✅' : '🧑‍💻'}</span>
-        <p>{project.description}</p>
+      <div className='flex justify-around items-center'>
+        <Github />
+        <h1
+          className='font-semibold text-xl uppercase mb-2'
+        >
+          {project.name}
+        </h1>
+        <Github />
       </div>
-    </article>
+      <p>{project.description}</p>
+      <Skills skills={project.skills} />
+    </div>
   )
 }
 

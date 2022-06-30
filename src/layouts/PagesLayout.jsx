@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './../components/Header'
 import { Routes } from './../router/routes'
 
@@ -7,7 +6,9 @@ const PagesLayout = ({ children }) => {
     <>
       <Header items={Routes} />
       <main className='flex justify-center items-center h-screen'>
-        {children}
+        <section className='w-full z-40 absolute top-24'>
+          {children}
+        </section>
       </main>
     </>
   )

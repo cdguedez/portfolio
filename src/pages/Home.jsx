@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroHome from './../components/HeroHome'
 import Button from './../components/Button'
 import About from './About'
@@ -10,18 +9,20 @@ const linkLinkedin = 'https://linkedin.com/in/cdguedez'
 const Home = () => {
   return (
     <>
-      <section className='w-full p-4'>
+      <article className='px-4 py-10'>
         <HeroHome
           name={me.name}
           jobTitle={me.jobTitle}
           networks={me.socialLinks}
         />
         <div className='my-2'>
-          <Button border onClick={() => window.open(linkCv, '_blank')}>Download CV</Button>
-          <Button border onClick={() => window.open(linkLinkedin, '_blank')}>Contact me</Button>
+          <Button border onClick={() => window.open(linkCv, '_blank')}>Descargar CV</Button>
+          <Button border onClick={() => window.open(linkLinkedin, '_blank')}>Contactame</Button>
         </div>
-        <About className='text-justify' />
-      </section>
+      </article>
+      <article className='bg-slate-300 p-4'>
+        <About className='text-left text-lg pt-4' />
+      </article>
     </>
   )
 }

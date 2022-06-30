@@ -93,7 +93,7 @@ export const projects = [
   },
   {
     id: 'CG07',
-    name: 'Pagina de recambios kawasaki',
+    name: 'Recambios kawasaki',
     url: 'http://recambioskawasakimoto.com/',
     images: [],
     description: 'web de recambios realizada en wordpress',
@@ -104,7 +104,7 @@ export const projects = [
 
 export const me = {
   name: 'Carlos Guedez',
-  jobTitle: 'Web Developer',
+  jobTitle: 'Desarrollador Web',
   country: 'VENEZUELA',
   language: [
     { id: 'l1', name: 'spanish', level: 'nativo' },

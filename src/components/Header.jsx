@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BurgerIcon from './../assets/icons/BurgerIcon'
 import CloseIcon from '../assets/icons/CloseIcon'
@@ -7,7 +7,7 @@ import Button from './Button'
 const Header = ({ items }) => {
   const [isVisible, setIsVisible] = useState(false)
   return (
-    <header className='bg-white p-4 h-auto fixed w-screen z-10 shadow-md'>
+    <header className='bg-white p-4 h-auto fixed w-screen z-50 shadow-md'>
       <nav className='flex justify-between items-center bg-inherit'>
         <div className='sm:hidden bg-inherit'>
           <Button
@@ -22,6 +22,7 @@ const Header = ({ items }) => {
                 key={path}
                 className='font-semibold px-6 py-2  transition-all'
                 to={path}
+                onClick={() => setIsVisible(!isVisible)}
               >
                 {title}
               </Link>
