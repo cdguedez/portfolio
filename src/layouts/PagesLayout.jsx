@@ -1,4 +1,5 @@
 import Header from './../components/Header'
+import Footer from './../components/Footer'
 import { Routes } from './../router/routes'
 
 const PagesLayout = ({ children }) => {
@@ -10,6 +11,7 @@ const PagesLayout = ({ children }) => {
           {children}
         </section>
       </main>
+      <Footer />
     </>
   )
 }
