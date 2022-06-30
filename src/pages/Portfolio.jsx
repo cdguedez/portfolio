@@ -1,13 +1,15 @@
 import Hero from './../components/Hero'
-import Projects from './../components/Projects'
 
 const Portfolio = () => {
   return (
-    <section className='px-2'>
+    <section className='w-full px-4'>
       <Hero
-        title='My portfolio'
+        title='My Portflio'
+        subTitle='This portfolio contain my projects personals and projects professionals'
       />
-      <Projects />
+      <article>
+        list portfolio
+      </article>
     </section>
   )
 }
