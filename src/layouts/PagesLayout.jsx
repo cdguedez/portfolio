@@ -9,9 +9,9 @@ const PagesLayout = ({ children }) => {
       <main className='flex justify-center items-center h-screen'>
         <section className='w-full z-40 absolute top-24'>
           {children}
+          <Footer />
         </section>
       </main>
-      <Footer />
     </>
   )
 }
