@@ -21,7 +21,7 @@ const Home = () => {
         </div>
       </article>
       <article className='bg-slate-200 bg-opacity-50 p-4'>
-        <About className='text-left text-lg pt-4' />
+        <About />
       </article>
     </>
   )

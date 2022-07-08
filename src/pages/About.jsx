@@ -1,6 +1,6 @@
-const About = ({ className }) => {
+const About = () => {
   return (
-    <div className={className}>
+    <div className='text-left text-lg pt-4'>
       <h1 className='font-bold uppercase text-3xl'>Sobre Mi</h1>
       <p className='my-2'>
         Soy desarrollador web con mas de 3 años de experiencia y me especializo en backend con Nodejs
