@@ -34,26 +34,31 @@ const Contact = () => {
           title='contactame'
           subTitle='Puedes contactarme a traves de este formulario'
         />
-        <form onSubmit={handleSubmit}>
-          <Input
-            type='text'
-            name='name'
-            placeholder='Tu nombre'
-            onChange={handleChange}
-          />
-          <Input
-            type='email'
-            name='email'
-            placeholder='Tu email'
-            onChange={handleChange}
-          />
+        <div className='grid gap-2 grid-cols-1 md:grid-cols-2'>
           <div>
-            <textarea className='w-full' rows='8' name='subject' onChange={handleChange} value={values.subject} />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in impedit quam culpa harum. Recusandae illo asperiores ad sit maxime molestiae cupiditate aperiam cumque quaerat hic maiores impedit, perspiciatis consectetur.
           </div>
-          <div>
-            <Button border full>Enviar</Button>
-          </div>
-        </form>
+          <form onSubmit={handleSubmit}>
+            <Input
+              type='text'
+              name='name'
+              placeholder='Tu nombre'
+              onChange={handleChange}
+            />
+            <Input
+              type='email'
+              name='email'
+              placeholder='Tu email'
+              onChange={handleChange}
+            />
+            <div>
+              <textarea className='w-full outline-none border-2' rows='8' name='subject' onChange={handleChange} value={values.subject} />
+            </div>
+            <div>
+              <Button border full>Enviar</Button>
+            </div>
+          </form>
+        </div>
       </article>
     </>
   )
