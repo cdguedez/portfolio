@@ -1,1 +1,0 @@
-import{a as e,j as s}from"./index.9f42d5d9.js";const r=({title:l,subTitle:t})=>e("article",{children:[e("h1",{className:"font-bold text-3xl my-4 uppercase -ml-2 text-left",children:[l,s("hr",{className:"bg-blue-400 my-4 h-1 w-1/3"})]}),s("h2",{className:"font-semibold text-xl mb-2",children:t})]});export{r as H};
