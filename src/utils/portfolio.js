@@ -1,25 +1,25 @@
-// eslint-disable-next-line import/no-absolute-path
-import efiempresaDesktop from '/src/assets/images/efiempresa-desktop.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import efiempresaMobile from '/src/assets/images/efiempresa-mobile.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import draDesktop from '/src/assets/images/drangelachamorro-desktop.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import draMobile from '/src/assets/images/drangelachamorro-mobile.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import efiempleoDesktop from '/src/assets/images/efiempleo-desktop.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import efiempleoMobile from '/src/assets/images/efiempleo-mobile.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import cVehiDesktop from '/src/assets/images/credivehiculos-desktop.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import cVehiMobile from '/src/assets/images/credivehiculos-mobile.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import efitratosDesktop from '/src/assets/images/app-efitratos-desktop.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import efitratosMobile from '/src/assets/images/app-efitratos-mobile.jpg'
-// eslint-disable-next-line import/no-absolute-path
-import contratosDesktop from '/src/assets/images/contratos-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efiempresaDesktop from '/src/assets/images/efiempresa-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efiempresaMobile from '/src/assets/images/efiempresa-mobile.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import draDesktop from '/src/assets/images/drangelachamorro-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import draMobile from '/src/assets/images/drangelachamorro-mobile.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efiempleoDesktop from '/src/assets/images/efiempleo-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efiempleoMobile from '/src/assets/images/efiempleo-mobile.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import cVehiDesktop from '/src/assets/images/credivehiculos-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import cVehiMobile from '/src/assets/images/credivehiculos-mobile.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efitratosDesktop from '/src/assets/images/app-efitratos-desktop.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import efitratosMobile from '/src/assets/images/app-efitratos-mobile.jpg'
+// // eslint-disable-next-line import/no-absolute-path
+// import contratosDesktop from '/src/assets/images/contratos-desktop.jpg'
 
 export const projects = [
   {
@@ -47,8 +47,8 @@ export const projects = [
     name: 'SPA Efitratos',
     url: 'https://app.efitratos.com/',
     images: [
-      efitratosDesktop,
-      efitratosMobile
+      // efitratosDesktop,
+      // efitratosMobile
     ],
     description: 'Sistema de gestion de propuestas realizado con el STACK MySQL ExpressVuejs Nodejs',
     isFinish: true,
@@ -58,7 +58,9 @@ export const projects = [
     id: 'CG04',
     name: 'Backoffice de contratos',
     url: 'https://contratos.efiempresa.com/',
-    images: [contratosDesktop],
+    images: [
+      // contratosDesktop
+    ],
     description: 'Sistema de contratos realizado con PHP, bootstrapp, javascrip vanila',
     isFinish: true,
     skills: ['css3', 'JS vanila', 'PHP 7', 'html5', 'bootstrap', 'MySql']
@@ -68,8 +70,8 @@ export const projects = [
     name: 'Portal de empleos Efiempleo',
     url: 'https://efiempleo.com/',
     images: [
-      efiempleoDesktop,
-      efiempleoMobile
+      // efiempleoDesktop,
+      // efiempleoMobile
     ],
     description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
     isFinish: true,
@@ -80,8 +82,8 @@ export const projects = [
     name: 'Efiempresa LLC',
     url: 'https://efiempresa.com/',
     images: [
-      efiempresaDesktop,
-      efiempresaMobile
+      // efiempresaDesktop,
+      // efiempresaMobile
     ],
     description: 'Web de Efiempresa realizada con wordpress para mi empleador.',
     isFinish: true,
@@ -92,8 +94,8 @@ export const projects = [
     name: 'Dra Angela Chamorro',
     url: 'https://www.drangelachamorro.com/',
     images: [
-      draDesktop,
-      draMobile
+      // draDesktop,
+      // draMobile
     ],
     description: 'Web de Efiempresa realizada con wordpress, con mi anterior empleador Efiempresa LLC.',
     isFinish: true,
@@ -104,8 +106,8 @@ export const projects = [
     name: 'Credivehiculos',
     url: 'https://credivehiculos.com/',
     images: [
-      cVehiDesktop,
-      cVehiMobile
+      // cVehiDesktop,
+      // cVehiMobile
     ],
     description: 'Web realizada en wordpress.',
     isFinish: true,
