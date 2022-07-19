@@ -3,7 +3,7 @@ import Github from './../assets/icons/Github'
 import Twitter from './../assets/icons/Twitter'
 import Button from './../components/Button'
 
-const linkCv = 'https://drive.google.com/file/d/1SLPQZO_ErUD1eItP-GdpBlsBpH_aK6fA/view'
+const linkCv = 'https://drive.google.com/file/d/1AT_qdGfuMfkmDvIxVIPdze1bJZgBiygA/view?usp=sharing'
 const linkLinkedin = 'https://linkedin.com/in/cdguedez'
 
 const socialIcons = {

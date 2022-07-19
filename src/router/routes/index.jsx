@@ -2,7 +2,7 @@ import { lazy } from 'react'
 
 const Home = lazy(() => import('./../../pages/Home'))
 const Portfolio = lazy(() => import('./../../pages/Portfolio'))
-const Contact = lazy(() => import('./../../pages/Contact'))
+// const Contact = lazy(() => import('./../../pages/Contact'))
 const Error404 = lazy(() => import('./../../pages/Error404'))
 
 export const TemplateTitle = 'Portfolio cdguedez'
@@ -20,11 +20,11 @@ export const Routes = [
     path: '/projects',
     element: <Portfolio />
   },
-  {
-    title: 'Contactame',
-    path: '/contact',
-    element: <Contact />
-  },
+  // {
+  //   title: 'Contactame',
+  //   path: '/contact',
+  //   element: <Contact />
+  // },
   {
     path: '/*',
     element: <Error404 />
