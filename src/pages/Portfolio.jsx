@@ -9,7 +9,7 @@ const Portfolio = () => {
         {/* <Search /> */}
         <Hero
           title='Mi Portafolio'
-          subTitle='Aqui encontraras Proyectos personales y profesionales'
+          subTitle='Aqui encontraras proyectos personales y profesionales'
         />
       </article>
       <article className='p-4'>
