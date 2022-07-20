@@ -14,7 +14,7 @@ const CardProject = ({ project }) => {
           {project.name}
         </h1>
         {project.repo && <a href={project.repo} target='_blank' rel='noreferrer'><Github /></a>}
-        <a href={project.url} target='_blank' rel='noreferrer'><ArrowUpRight /></a>
+        {project.url && <a href={project.url} target='_blank' rel='noreferrer'><ArrowUpRight /></a>}
       </div>
       <hr className='bg-blue-400 my-2 h-1 w-1/3' />
       <p>{project.description}</p>

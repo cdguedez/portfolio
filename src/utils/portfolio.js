@@ -28,9 +28,9 @@ export const projects = [
     url: 'https://api-store-cdguedez.herokuapp.com/api/v1/users',
     repo: 'https://github.com/cdguedez/api-store-cguedez',
     images: [],
-    description: 'API REST creada para un curso de platzi',
+    description: 'Esta API REST fue creada con los conocimientos adquiridos en un curso de platzi.',
     isFinish: true,
-    skills: ['Nodejs', 'express', 'passportjs', 'sequelize', 'MySql', 'cors', 'bcrypt', 'nodemailer', 'jwt']
+    skills: ['Nodejs', 'docker', 'express', 'passportjs', 'sequelize', 'MySql', 'cors', 'bcrypt', 'nodemailer', 'jwt', 'heroku', 'git', 'github']
   },
   {
     id: 'CG02',
@@ -38,9 +38,9 @@ export const projects = [
     url: 'https://cdguedez.github.io/react-shop/',
     repo: 'https://github.com/cdguedez/react-shop',
     images: [],
-    description: 'Frontend de tienda virtual creada en un curso de react',
+    description: 'En la continuación del curso de platzi para la creación de la API REST, en este proyecto realizo la UI para consumir los servicios creados anteriormente.',
     isFinish: true,
-    skills: ['Reactjs', 'hooks', 'webpack', 'sass', 'styled-components', 'formik', 'react-router-dom']
+    skills: ['Reactjs', 'hooks', 'webpack', 'sass', 'styled-components', 'formik', 'react-router-dom', 'github-pages', 'git', 'github']
   },
   {
     id: 'CG03',
@@ -50,20 +50,20 @@ export const projects = [
       // efitratosDesktop,
       // efitratosMobile
     ],
-    description: 'Sistema de gestion de propuestas realizado con el STACK MySQL ExpressVuejs Nodejs',
+    description: 'SPA desarrollada con la finalidad de enviar propuestas de contratos y licitaciones y cotizaciones de proyectos, el mismo cuenta con plantillas dinamicas que pueden ser utilizadas por el cliente.',
     isFinish: true,
-    skills: ['Nodejs', 'Vuejs', 'express', 'MySql', 'Sequelize', 'vue-bootstrap']
+    skills: ['Nodejs', 'Vuejs', 'express', 'MySql', 'Sequelize', 'vue-bootstrap', 'git', 'gitlab']
   },
   {
     id: 'CG04',
     name: 'Backoffice de contratos',
-    url: 'https://contratos.efiempresa.com/',
+    // url: 'https://contratos.efiempresa.com/',
     images: [
       // contratosDesktop
     ],
-    description: 'Sistema de contratos realizado con PHP, bootstrapp, javascrip vanila',
+    description: 'Sistema para la gestión de contratos realizado con PHP, bootstrapp, javascrip vanila.',
     isFinish: true,
-    skills: ['css3', 'JS vanila', 'PHP 7', 'html5', 'bootstrap', 'MySql']
+    skills: ['css3', 'JS vanila', 'PHP 7', 'html5', 'bootstrap', 'MySql', 'CPanel', 'git']
   },
   {
     id: 'CG05',
@@ -73,7 +73,7 @@ export const projects = [
       // efiempleoDesktop,
       // efiempleoMobile
     ],
-    description: 'Portal de empleos realizado con wordpress, perteneciante a Efiempresa LLC.',
+    description: 'Portal de empleos realizado con wordpress, donde se pueden aplicar a diferentes ofertas de empleo publicadas por efiempresa LLC.',
     isFinish: true,
     skills: ['wordpress', 'woocomerce', 'css3']
   },
@@ -85,7 +85,7 @@ export const projects = [
       // efiempresaDesktop,
       // efiempresaMobile
     ],
-    description: 'Web de Efiempresa realizada con wordpress para mi empleador.',
+    description: 'Web de Efiempresa realizada con wordpress.',
     isFinish: true,
     skills: ['wordpress', 'elementor', 'css3']
   },
@@ -142,13 +142,14 @@ export const me = {
     'Reactjs',
     'Nodejs',
     'expressjs',
-    'Docker'
+    'Docker',
+    'git'
   ],
   socialLinks: [
     { name: 'twitter', url: 'https://twitter.com/cdguedez' },
     { name: 'linkedin', url: 'https://linkedin.com/in/cdguedez' },
     { name: 'github', url: 'https://github.com/cdguedez' }
   ],
-  hobbies: ['leer', 'series', 'cine', 'montana'],
+  hobbies: ['leer', 'series', 'cine', 'montaña'],
   age: 29
 }
