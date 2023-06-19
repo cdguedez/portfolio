@@ -10,11 +10,11 @@ const Router = () => {
     <>
       <Switch>
         {
-            Routes.map(r => (
+            Routes.map(({ path, element }) => (
               <Route
-                key={r.path}
-                path={r.path}
-                element={<Suspense fallback={<Loading />}><PagesLayout>{r.element}</PagesLayout></Suspense>}
+                key={path}
+                path={path}
+                element={<Suspense fallback={<Loading />}><PagesLayout>{element}</PagesLayout></Suspense>}
               />
             ))
           }

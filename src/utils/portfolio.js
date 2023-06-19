@@ -1,26 +1,3 @@
-// // eslint-disable-next-line import/no-absolute-path
-// import efiempresaDesktop from '/src/assets/images/efiempresa-desktop.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import efiempresaMobile from '/src/assets/images/efiempresa-mobile.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import draDesktop from '/src/assets/images/drangelachamorro-desktop.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import draMobile from '/src/assets/images/drangelachamorro-mobile.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import efiempleoDesktop from '/src/assets/images/efiempleo-desktop.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import efiempleoMobile from '/src/assets/images/efiempleo-mobile.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import cVehiDesktop from '/src/assets/images/credivehiculos-desktop.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import cVehiMobile from '/src/assets/images/credivehiculos-mobile.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import efitratosDesktop from '/src/assets/images/app-efitratos-desktop.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import efitratosMobile from '/src/assets/images/app-efitratos-mobile.jpg'
-// // eslint-disable-next-line import/no-absolute-path
-// import contratosDesktop from '/src/assets/images/contratos-desktop.jpg'
-
 export const projects = [
   {
     id: 'CG01',
@@ -132,6 +109,7 @@ export const me = {
     { id: 'l1', name: 'spanish', level: 'nativo' },
     { id: 'l2', name: 'english', level: 'basic' }
   ],
+  avatar: 'https://unavatar.io/cdguedez',
   skills: [
     'Linux',
     'html5',
