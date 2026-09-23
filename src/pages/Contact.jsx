@@ -85,7 +85,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Form */}
-        <div className='p-6 sm:p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-md'>
+        {/* <div className='p-6 sm:p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-md'>
           {submitted ? (
             <div className='py-12 text-center'>
               <div className='w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto mb-3 text-xl'>
@@ -134,7 +134,7 @@ const Contact = () => {
               </Button>
             </form>
           )}
-        </div>
+        </div> */}
       </div>
     </div>
   )
