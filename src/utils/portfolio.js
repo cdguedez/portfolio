@@ -1,4 +1,15 @@
+import sagcomImage from '../assets/images/sagcom/ppal.png'
+
 export const projects = [
+  {
+    id: 'CG10',
+    name: 'SAGCOM 2.0',
+    url: 'https://sagcom.cl/',
+    images: [sagcomImage],
+    description: 'Sistema digital util y revisión de los grados de invalidez de los afiliados al sistema de pensiones',
+    isFinish: true,
+    skills: ['React', 'TypeScript', 'Microfrontend', 'OPENAPI', 'SQL Server', 'AWS', 'AWS S3', 'Docker']
+  },
   {
     id: 'CG01',
     name: 'API REST para tienda virtual',
@@ -103,13 +114,14 @@ export const projects = [
 
 export const me = {
   name: 'Carlos Guedez',
-  jobTitle: 'Desarrollador Web',
+  jobTitle: 'Desarrollador Web',  
   country: 'VENEZUELA',
+  phone: '+584241916674',
   language: [
     { id: 'l1', name: 'spanish', level: 'nativo' },
     { id: 'l2', name: 'english', level: 'basic' }
   ],
-  avatar: 'https://unavatar.io/cdguedez',
+  avatar: 'https://unavatar.io/github/cdguedez',
   skills: [
     'Linux',
     'html5',
@@ -121,13 +133,16 @@ export const me = {
     'Nodejs',
     'expressjs',
     'Docker',
-    'git'
+    'git',
+    'Nextjs',
+    'Agents IA',
+    'Skills IA'
   ],
   socialLinks: [
     { name: 'twitter', url: 'https://twitter.com/cdguedez' },
     { name: 'linkedin', url: 'https://linkedin.com/in/cdguedez' },
     { name: 'github', url: 'https://github.com/cdguedez' }
   ],
-  hobbies: ['leer', 'series', 'cine', 'montaña'],
+  hobbies: ['leer', 'Ver series y películas', 'montaña', 'correr'],
   age: 29
 }
