@@ -3,20 +3,25 @@ import Button from './../components/Button'
 
 const Error404 = () => {
   const navigate = useNavigate()
-  const returnHome = () => {
-    navigate('/')
-  }
 
   return (
-    <section className='flex flex-col m-2'>
-      <div className='flex justify-center items-center flex-col'>
-        <h1 className='uppercase mb-4 animate-pulse text-red-500'>ERROR 404 | Esta pagina no existe</h1>
-        <p className='text-center'>Parece que estas ingresando una URL manual, Para evitar llegar a esta pagina solo usa nuestros link de navegacion</p>
+    <div className='flex flex-col items-center justify-center py-20 px-4 text-center max-w-lg mx-auto'>
+      <div className='inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-wider bg-rose-500/10 text-rose-400 border border-rose-500/20 mb-6'>
+        Error 404
       </div>
-      <Button border onClick={() => returnHome()} to='/'>
-        Regresar al Inicio
+
+      <h1 className='text-4xl sm:text-5xl font-extrabold text-white font-heading mb-4'>
+        Página no encontrada
+      </h1>
+
+      <p className='text-slate-400 text-sm leading-relaxed mb-8'>
+        La página que buscas no existe o ha sido movida. Puedes volver al inicio para continuar navegando.
+      </p>
+
+      <Button variant='primary' onClick={() => navigate('/')}>
+        Volver al Inicio
       </Button>
-    </section>
+    </div>
   )
 }
 
