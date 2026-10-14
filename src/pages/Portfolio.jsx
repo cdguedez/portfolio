@@ -4,7 +4,7 @@ import Projects from './../components/Projects'
 import Search from './../components/Search'
 import { projects } from './../utils/portfolio'
 
-const categories = ['Todos', 'React', 'Node', 'WordPress', 'Fullstack']
+const categories = ['Todos', 'React', 'Node', 'WordPress', 'Fullstack', 'HTML5', 'Git']
 
 const Portfolio = () => {
   const [searchTerm, setSearchTerm] = useState('')
@@ -32,6 +32,10 @@ const Portfolio = () => {
       if (selectedCategory === 'Fullstack') {
         return project.skills.length > 6 || project.skills.some(s => s.toLowerCase().includes('mysql') || s.toLowerCase().includes('api'))
       }
+
+      if (selectedCategory === 'HTML5') {
+        return project.skills.some(s => s.toLowerCase().includes('html5'))
+      }
       return true
     })
   }, [searchTerm, selectedCategory])
@@ -52,11 +56,10 @@ const Portfolio = () => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-3.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all duration-200 ${
-                selectedCategory === cat
-                  ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm'
-                  : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 border border-transparent'
-              }`}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all duration-200 ${selectedCategory === cat
+                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/40 shadow-sm'
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60 border border-transparent'
+                }`}
             >
               {cat}
             </button>

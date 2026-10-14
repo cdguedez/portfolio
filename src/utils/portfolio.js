@@ -11,6 +11,15 @@ export const projects = [
     skills: ['React', 'TypeScript', 'Microfrontend', 'OPENAPI', 'SQL Server', 'AWS', 'AWS S3', 'Docker']
   },
   {
+    id: 'CG11',
+    name: 'Cerrajeria 24/7',
+    url: 'https://cerrajeriasos24.com/',
+    images: [],
+    description: 'Pagina web de cerrajería con servicios de cerrajería en Caracas.',
+    isFinish: true,
+    skills: ['html5', 'css3', 'js vanila', 'SEO', 'SEO Local', 'github', 'github-pages', 'git', 'search google']
+  },
+  {
     id: 'CG01',
     name: 'API REST para tienda virtual',
     url: 'https://api-store-cdguedez.herokuapp.com/api/v1/users',

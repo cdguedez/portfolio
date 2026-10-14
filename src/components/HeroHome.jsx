@@ -2,7 +2,7 @@ import Button from './../components/Button'
 import { me } from '../utils/portfolio'
 import { Github, Linkedin, Twitter } from '../assets/icons'
 
-const linkCv = 'https://drive.google.com/file/d/1L3OZh74UDpdxYtnybreNkdDt6P_NB_pe/view?usp=sharing'
+const linkCv = 'https://drive.google.com/file/d/16yn-xByPg5VrxkFhMClArI3GKAPG8J6X/view?usp=drive_link'
 const linkLinkedin = 'https://linkedin.com/in/cdguedez'
 
 const socialIcons = {
